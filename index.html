@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vorblock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Vorblock</h1>
+    <p>Your solution to convert various programming language scripts into executable files for Linux!</p>
+  </header>
+
+  <section class="intro">
+    <h2>About the Program</h2>
+    <p>This program allows you to convert source code written in multiple programming languages into standalone Linux executable files. It supports Python, Ruby, Shell scripts, Go, Java, and C.</p>
+    <p>By using the right tools and compilers for each language, this tool will generate a platform-specific executable file that can be run directly on your Linux system.</p>
+  </section>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <ul>
+      <li>Select the programming language of your script.</li>
+      <li>Provide the path to your source code file.</li>
+      <li>The tool will then invoke the appropriate conversion method based on the language (e.g., pyinstaller for Python, gcc for C).</li>
+      <li>Once the conversion is complete, you’ll receive an executable file that can run directly on your Linux machine.</li>
+    </ul>
+  </section>
+
+  <section class="supported-languages">
+    <h2>Supported Languages</h2>
+    <p>This tool supports the following languages:</p>
+    <ul>
+      <li><strong>Python (.py)</strong> - Uses PyInstaller to convert Python scripts into executables.</li>
+      <li><strong>Ruby (.rb)</strong> - Uses Ruby's `ruby` and `ocra` gem to compile Ruby scripts.</li>
+      <li><strong>Shell Scripts (.sh)</strong> - Shell scripts are converted using Linux shell utilities.</li>
+      <li><strong>Go (.go)</strong> - Go scripts are compiled using the `go` compiler.</li>
+      <li><strong>Java (.java)</strong> - Java programs are compiled using `javac` and packaged using `jar`.</li>
+      <li><strong>C (.c)</strong> - C programs are compiled using `gcc` into native executables.</li>
+    </ul>
+  </section>
+
+  <section class="usage">
+    <h2>How to Use</h2>
+    <ol>
+      <li>Download the program from the official source.</li>
+      <li>Install the necessary compilers and tools for the languages you wish to convert.</li>
+      <li>Run the program and select your source code file.</li>
+      <li>Choose the language of your script, and click "Convert to Executable".</li>
+      <li>The program will generate an executable file in the output directory.</li>
+      <li>Run the generated executable on your Linux system.</li>
+    </ol>
+  </section>
+
+  <section class="limitations">
+    <h2>Limitations</h2>
+    <ul>
+      <li>The program is designed specifically for Linux and may not work for other operating systems.</li>
+      <li>It requires that the appropriate compilers and tools for each language are installed on your machine.</li>
+      <li>Some languages may require additional configuration (e.g., installing specific gems or dependencies for Ruby).</li>
+    </ul>
+  </section>
+
+  <section class="footer">
+    <h2>Get Started</h2>
+    <p>If you’re ready to start converting your scripts into executables, make sure you’ve installed the necessary compilers and tools. Use the command below to download the program:</p>
+    <div class="code-block">
+      <code>curl https://drive.google.com/file/d/11CQ_eMDGFNCQxWVQou0VA6Mv7ucP3SlE/view?usp=drive_link</code>
+    </div>
+    <p>After downloading, follow the instructions in the program to convert your scripts into executables.</p>
+    <div>
+    If you want to download the file in a specific location then there will be a file named <code>download_tool.sh</code>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Vorblock. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
